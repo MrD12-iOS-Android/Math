@@ -15,16 +15,14 @@ import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+
+
+
 public class Bolimlar extends AppCompatActivity {
     Animation anim_btn_next,anim_btn_back01,topa_title;
     Button btn_next;
     ImageView imageView,btn_back01;
     TextView textView;
-
-
-
-
-
     @SuppressLint("CutPasteId")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
