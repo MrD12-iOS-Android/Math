@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/btnBackKirish"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Kirish">
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        app:srcCompat="@color/black" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_margin="25dp"
+            android:orientation="horizontal">
+
+
+            <ImageButton
+                android:id="@+id/back_Kirish"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/btn_back_radius"
+                android:padding="10dp"
+                android:paddingStart="17dp"
+                app:srcCompat="@drawable/ic_baseline_arrow_back_ios_24"
+                tools:ignore="VectorDrawableCompat"  />
+
+
+
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/top_title"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:autoText="true"
+            android:bufferType="normal"
+            android:gravity="center"
+            android:text="Kirish"
+            android:textAlignment="textStart"
+            android:textColor="@color/colorAccent"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            tools:ignore="RtlCompat" />
+
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="30dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="15dp"
+                    android:text="Lotin"
+                    android:textAlignment="textEnd"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/title2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="30dp"
+                    android:text="Assalomu alaykum hurmatli foydalanuvchi!!! "
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:text="Ushbu ilovada siz: "
+                    android:textAlignment="textStart"
+                    android:textColor="@color/white"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:id="@+id/title3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingStart="20dp"
+                    android:text="• Alebraik misollar"
+                    android:textAlignment="textStart"
+                    android:textColor="@color/white"
+                    android:textSize="24sp"
+                    android:textStyle="bold|italic" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingStart="20dp"
+                    android:text="• Geometriyaga oid masalalar"
+                    android:textAlignment="textStart"
+                    android:textColor="@color/white"
+                    android:textSize="24sp"
+                    android:textStyle="bold|italic" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingStart="20dp"
+                    android:text="• Audio darslar "
+                    android:textAlignment="textStart"
+                    android:textColor="@color/white"
+                    android:textSize="24sp"
+                    android:textStyle="bold|italic" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="30dp"
+                    android:paddingStart="20dp"
+                    android:text="• Matematikaga oid formulalardan qulay ravishda foydalanish imkoniyatiga ega bo’lasiz."
+                    android:textAlignment="textStart"
+                    android:textColor="@color/white"
+                    android:textSize="24sp"
+                    android:textStyle="bold|italic" />
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="30dp"
+                    android:text="Umid qilamizki ushbu ilova orqali siz matematikaga oid bilimlaringizni oshirib borasiz."
+                    android:textAlignment="textStart"
+                    android:textColor="@color/white"
+                    android:textSize="24sp" />
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="30dp"
+                    android:text="Ushbu ilovaning qulayliki va boshqa ilovalardan avfzalliklari nimada?"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="30dp"
+                    android:text="Siz foydalanayotgan ilovada mutaxassis(Olimpiada g’olibi) tomonidan audio ko’rinishda batafsil, tushunarli, sifatli tarizda barcha misol, masalalar yoritib(yechib) berilgan."
+                    android:textAlignment="textStart"
+                    android:textColor="@color/white"
+                    android:textSize="24sp" />
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="30dp"
+                    android:text="O’zbek tilidagi maxsus ilovadan foydalanmoqdasiz!"
+                    android:textAlignment="textStart"
+                    android:textColor="@color/white"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="4dp"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginEnd="30dp"
+                    android:layout_marginBottom="50dp"
+                    android:background="@drawable/solid_border"
+                    android:textAlignment="textStart"
+                    android:textColor="@color/white" />
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="15dp"
+                    android:text="Ўзб"
+                    android:textAlignment="textEnd"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="30dp"
+                    android:text="Aссалому алайкум ҳурматли фойдаланувчи!!!"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:text="Ушбу иловада сиз:"
+                    android:textAlignment="textStart"
+                    android:textColor="@color/white"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingStart="20dp"
+                    android:text="• Aлебраик мисоллар"
+                    android:textAlignment="textStart"
+                    android:textColor="@color/white"
+                    android:textSize="24sp"
+                    android:textStyle="bold|italic" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingStart="20dp"
+                    android:text="• Геометрияга оид масалалар"
+                    android:textAlignment="textStart"
+                    android:textColor="@color/white"
+                    android:textSize="24sp"
+                    android:textStyle="bold|italic" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingStart="20dp"
+                    android:text="• Aудио дарслар"
+                    android:textAlignment="textStart"
+                    android:textColor="@color/white"
+                    android:textSize="24sp"
+                    android:textStyle="bold|italic" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="30dp"
+                    android:paddingStart="20dp"
+                    android:text="• Математикага оид формулалардан қулай равишда фойдаланиш имкониятига эга бўласиз."
+                    android:textAlignment="textStart"
+                    android:textColor="@color/white"
+                    android:textSize="24sp"
+                    android:textStyle="bold|italic" />
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="30dp"
+                    android:text="Умид қиламизки ушбу илова орқали сиз математикага оид билимларингизни ошириб борасиз."
+                    android:textAlignment="textStart"
+                    android:textColor="@color/white"
+                    android:textSize="24sp" />
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="30dp"
+                    android:text="Ушбу илованинг қулайлики ва бошқа иловалардан авфзалликлари нимада? "
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="30dp"
+                    android:text="Сиз фойдаланаётган иловада мутахассис(Олимпиада ғолиби) томонидан аудио кўринишда батафсил, тушунарли, сифатли таризда барча мисол, масалалар ёритиб(йечиб) берилган."
+                    android:textAlignment="textStart"
+                    android:textColor="@color/white"
+                    android:textSize="24sp" />
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="30dp"
+                    android:text="Ўзбек тилидаги махсус иловадан фойдаланмоқдасиз!"
+                    android:textAlignment="textStart"
+                    android:textColor="@color/white"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="4dp"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginEnd="30dp"
+                    android:layout_marginBottom="50dp"
+                    android:background="@drawable/solid_border"
+                    android:textAlignment="textStart"
+                    android:textColor="@color/white" />
+
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>
