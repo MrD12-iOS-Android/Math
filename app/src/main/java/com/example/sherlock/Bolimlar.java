@@ -21,6 +21,10 @@ public class Bolimlar extends AppCompatActivity {
     ImageView imageView,btn_back01;
     TextView textView;
 
+
+
+
+
     @SuppressLint("CutPasteId")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
